@@ -9,17 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    let transitionManger2 = TransitionManager()
 
+    @IBOutlet weak var nameField: UITextField!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.greenColor()
+        nameField.enabled = false
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+   
+    @IBAction func editButtomPushed(sender: AnyObject) {
+        nameField.enabled = true
     }
-
 
 }
 

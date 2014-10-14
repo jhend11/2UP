@@ -12,18 +12,28 @@
 		B4E7AC6219E813190056E039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC6019E813190056E039 /* Main.storyboard */; };
 		B4E7AC6419E813190056E039 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC6319E813190056E039 /* Images.xcassets */; };
 		B4E7AC6719E813190056E039 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC6519E813190056E039 /* LaunchScreen.xib */; };
-		B4E7AC7319E813190056E039 /* _UPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E7AC7219E813190056E039 /* _UPTests.swift */; };
+		B4E7AC9A19E82B760056E039 /* bg-addbutton-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC8C19E82B760056E039 /* bg-addbutton-highlighted.png */; };
+		B4E7AC9B19E82B760056E039 /* bg-addbutton-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC8D19E82B760056E039 /* bg-addbutton-highlighted@2x.png */; };
+		B4E7AC9C19E82B760056E039 /* bg-addbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC8E19E82B760056E039 /* bg-addbutton.png */; };
+		B4E7AC9D19E82B760056E039 /* bg-addbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC8F19E82B760056E039 /* bg-addbutton@2x.png */; };
+		B4E7AC9E19E82B760056E039 /* bg-menuitem-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC9019E82B760056E039 /* bg-menuitem-highlighted.png */; };
+		B4E7AC9F19E82B760056E039 /* bg-menuitem-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC9119E82B760056E039 /* bg-menuitem-highlighted@2x.png */; };
+		B4E7ACA019E82B760056E039 /* bg-menuitem.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC9219E82B760056E039 /* bg-menuitem.png */; };
+		B4E7ACA119E82B760056E039 /* bg-menuitem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC9319E82B760056E039 /* bg-menuitem@2x.png */; };
+		B4E7ACA219E82B760056E039 /* icon-plus-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC9419E82B760056E039 /* icon-plus-highlighted.png */; };
+		B4E7ACA319E82B760056E039 /* icon-plus-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC9519E82B760056E039 /* icon-plus-highlighted@2x.png */; };
+		B4E7ACA419E82B760056E039 /* icon-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC9619E82B760056E039 /* icon-plus.png */; };
+		B4E7ACA519E82B760056E039 /* icon-plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC9719E82B760056E039 /* icon-plus@2x.png */; };
+		B4E7ACA619E82B760056E039 /* icon-star.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC9819E82B760056E039 /* icon-star.png */; };
+		B4E7ACA719E82B760056E039 /* icon-star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E7AC9919E82B760056E039 /* icon-star@2x.png */; };
+		B4F83D0019EC84E2002968F1 /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F83CFF19EC84E2002968F1 /* MenuTransitionManager.swift */; };
+		B4F83D0219EC8612002968F1 /* Photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F83D0119EC8612002968F1 /* Photo@2x.png */; };
+		B4F83D0419EC880E002968F1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F83D0319EC880E002968F1 /* MenuViewController.swift */; };
+		B4F83D0619ECC2DE002968F1 /* RidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F83D0519ECC2DE002968F1 /* RidesViewController.swift */; };
+		B4F83D0819ECD1D9002968F1 /* ClubsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F83D0719ECD1D9002968F1 /* ClubsTableViewController.swift */; };
+		B4F83D0A19ED609E002968F1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F83D0919ED609E002968F1 /* ProfileViewController.swift */; };
+		B4F83D0C19ED7624002968F1 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F83D0B19ED7624002968F1 /* TransitionManager.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B4E7AC6D19E813190056E039 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B4E7AC4F19E813190056E039 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B4E7AC5619E813190056E039;
-			remoteInfo = 2UP;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B4E7AC5719E813190056E039 /* 2UP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2UP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +43,31 @@
 		B4E7AC6119E813190056E039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4E7AC6319E813190056E039 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B4E7AC6619E813190056E039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B4E7AC6C19E813190056E039 /* 2UPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2UPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4E7AC7119E813190056E039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4E7AC7219E813190056E039 /* _UPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _UPTests.swift; sourceTree = "<group>"; };
+		B4E7AC8C19E82B760056E039 /* bg-addbutton-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-addbutton-highlighted.png"; sourceTree = "<group>"; };
+		B4E7AC8D19E82B760056E039 /* bg-addbutton-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-addbutton-highlighted@2x.png"; sourceTree = "<group>"; };
+		B4E7AC8E19E82B760056E039 /* bg-addbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-addbutton.png"; sourceTree = "<group>"; };
+		B4E7AC8F19E82B760056E039 /* bg-addbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-addbutton@2x.png"; sourceTree = "<group>"; };
+		B4E7AC9019E82B760056E039 /* bg-menuitem-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-menuitem-highlighted.png"; sourceTree = "<group>"; };
+		B4E7AC9119E82B760056E039 /* bg-menuitem-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-menuitem-highlighted@2x.png"; sourceTree = "<group>"; };
+		B4E7AC9219E82B760056E039 /* bg-menuitem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-menuitem.png"; sourceTree = "<group>"; };
+		B4E7AC9319E82B760056E039 /* bg-menuitem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-menuitem@2x.png"; sourceTree = "<group>"; };
+		B4E7AC9419E82B760056E039 /* icon-plus-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-plus-highlighted.png"; sourceTree = "<group>"; };
+		B4E7AC9519E82B760056E039 /* icon-plus-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-plus-highlighted@2x.png"; sourceTree = "<group>"; };
+		B4E7AC9619E82B760056E039 /* icon-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-plus.png"; sourceTree = "<group>"; };
+		B4E7AC9719E82B760056E039 /* icon-plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-plus@2x.png"; sourceTree = "<group>"; };
+		B4E7AC9819E82B760056E039 /* icon-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-star.png"; sourceTree = "<group>"; };
+		B4E7AC9919E82B760056E039 /* icon-star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-star@2x.png"; sourceTree = "<group>"; };
+		B4F83CFF19EC84E2002968F1 /* MenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitionManager.swift; sourceTree = "<group>"; };
+		B4F83D0119EC8612002968F1 /* Photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Photo@2x.png"; sourceTree = "<group>"; };
+		B4F83D0319EC880E002968F1 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B4F83D0519ECC2DE002968F1 /* RidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesViewController.swift; sourceTree = "<group>"; };
+		B4F83D0719ECD1D9002968F1 /* ClubsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubsTableViewController.swift; sourceTree = "<group>"; };
+		B4F83D0919ED609E002968F1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B4F83D0B19ED7624002968F1 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B4E7AC5419E813190056E039 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4E7AC6919E813190056E039 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,8 +80,8 @@
 		B4E7AC4E19E813190056E039 = {
 			isa = PBXGroup;
 			children = (
+				B4E7AC8B19E82B650056E039 /* Images */,
 				B4E7AC5919E813190056E039 /* 2UP */,
-				B4E7AC6F19E813190056E039 /* 2UPTests */,
 				B4E7AC5819E813190056E039 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				B4E7AC5719E813190056E039 /* 2UP.app */,
-				B4E7AC6C19E813190056E039 /* 2UPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,9 +97,16 @@
 		B4E7AC5919E813190056E039 /* 2UP */ = {
 			isa = PBXGroup;
 			children = (
+				B4F83D0119EC8612002968F1 /* Photo@2x.png */,
 				B4E7AC5C19E813190056E039 /* AppDelegate.swift */,
 				B4E7AC5E19E813190056E039 /* ViewController.swift */,
+				B4F83D0519ECC2DE002968F1 /* RidesViewController.swift */,
+				B4F83D0319EC880E002968F1 /* MenuViewController.swift */,
 				B4E7AC6019E813190056E039 /* Main.storyboard */,
+				B4F83CFF19EC84E2002968F1 /* MenuTransitionManager.swift */,
+				B4F83D0B19ED7624002968F1 /* TransitionManager.swift */,
+				B4F83D0719ECD1D9002968F1 /* ClubsTableViewController.swift */,
+				B4F83D0919ED609E002968F1 /* ProfileViewController.swift */,
 				B4E7AC6319E813190056E039 /* Images.xcassets */,
 				B4E7AC6519E813190056E039 /* LaunchScreen.xib */,
 				B4E7AC5A19E813190056E039 /* Supporting Files */,
@@ -95,21 +122,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B4E7AC6F19E813190056E039 /* 2UPTests */ = {
+		B4E7AC8B19E82B650056E039 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				B4E7AC7219E813190056E039 /* _UPTests.swift */,
-				B4E7AC7019E813190056E039 /* Supporting Files */,
+				B4E7AC8C19E82B760056E039 /* bg-addbutton-highlighted.png */,
+				B4E7AC8D19E82B760056E039 /* bg-addbutton-highlighted@2x.png */,
+				B4E7AC8E19E82B760056E039 /* bg-addbutton.png */,
+				B4E7AC8F19E82B760056E039 /* bg-addbutton@2x.png */,
+				B4E7AC9019E82B760056E039 /* bg-menuitem-highlighted.png */,
+				B4E7AC9119E82B760056E039 /* bg-menuitem-highlighted@2x.png */,
+				B4E7AC9219E82B760056E039 /* bg-menuitem.png */,
+				B4E7AC9319E82B760056E039 /* bg-menuitem@2x.png */,
+				B4E7AC9419E82B760056E039 /* icon-plus-highlighted.png */,
+				B4E7AC9519E82B760056E039 /* icon-plus-highlighted@2x.png */,
+				B4E7AC9619E82B760056E039 /* icon-plus.png */,
+				B4E7AC9719E82B760056E039 /* icon-plus@2x.png */,
+				B4E7AC9819E82B760056E039 /* icon-star.png */,
+				B4E7AC9919E82B760056E039 /* icon-star@2x.png */,
 			);
-			path = 2UPTests;
-			sourceTree = "<group>";
-		};
-		B4E7AC7019E813190056E039 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B4E7AC7119E813190056E039 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,24 +163,6 @@
 			productReference = B4E7AC5719E813190056E039 /* 2UP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B4E7AC6B19E813190056E039 /* 2UPTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B4E7AC7919E8131A0056E039 /* Build configuration list for PBXNativeTarget "2UPTests" */;
-			buildPhases = (
-				B4E7AC6819E813190056E039 /* Sources */,
-				B4E7AC6919E813190056E039 /* Frameworks */,
-				B4E7AC6A19E813190056E039 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B4E7AC6E19E813190056E039 /* PBXTargetDependency */,
-			);
-			name = 2UPTests;
-			productName = 2UPTests;
-			productReference = B4E7AC6C19E813190056E039 /* 2UPTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +174,6 @@
 				TargetAttributes = {
 					B4E7AC5619E813190056E039 = {
 						CreatedOnToolsVersion = 6.0.1;
-					};
-					B4E7AC6B19E813190056E039 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = B4E7AC5619E813190056E039;
 					};
 				};
 			};
@@ -182,7 +191,6 @@
 			projectRoot = "";
 			targets = (
 				B4E7AC5619E813190056E039 /* 2UP */,
-				B4E7AC6B19E813190056E039 /* 2UPTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,16 +200,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E7ACA619E82B760056E039 /* icon-star.png in Resources */,
+				B4E7ACA419E82B760056E039 /* icon-plus.png in Resources */,
+				B4E7ACA019E82B760056E039 /* bg-menuitem.png in Resources */,
+				B4F83D0219EC8612002968F1 /* Photo@2x.png in Resources */,
+				B4E7AC9B19E82B760056E039 /* bg-addbutton-highlighted@2x.png in Resources */,
+				B4E7ACA519E82B760056E039 /* icon-plus@2x.png in Resources */,
+				B4E7AC9F19E82B760056E039 /* bg-menuitem-highlighted@2x.png in Resources */,
+				B4E7AC9D19E82B760056E039 /* bg-addbutton@2x.png in Resources */,
+				B4E7AC9A19E82B760056E039 /* bg-addbutton-highlighted.png in Resources */,
+				B4E7ACA319E82B760056E039 /* icon-plus-highlighted@2x.png in Resources */,
+				B4E7AC9C19E82B760056E039 /* bg-addbutton.png in Resources */,
+				B4E7ACA119E82B760056E039 /* bg-menuitem@2x.png in Resources */,
 				B4E7AC6219E813190056E039 /* Main.storyboard in Resources */,
+				B4E7ACA219E82B760056E039 /* icon-plus-highlighted.png in Resources */,
 				B4E7AC6719E813190056E039 /* LaunchScreen.xib in Resources */,
+				B4E7AC9E19E82B760056E039 /* bg-menuitem-highlighted.png in Resources */,
+				B4E7ACA719E82B760056E039 /* icon-star@2x.png in Resources */,
 				B4E7AC6419E813190056E039 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4E7AC6A19E813190056E039 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,28 +228,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F83D0C19ED7624002968F1 /* TransitionManager.swift in Sources */,
 				B4E7AC5F19E813190056E039 /* ViewController.swift in Sources */,
+				B4F83D0819ECD1D9002968F1 /* ClubsTableViewController.swift in Sources */,
+				B4F83D0019EC84E2002968F1 /* MenuTransitionManager.swift in Sources */,
 				B4E7AC5D19E813190056E039 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4E7AC6819E813190056E039 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4E7AC7319E813190056E039 /* _UPTests.swift in Sources */,
+				B4F83D0A19ED609E002968F1 /* ProfileViewController.swift in Sources */,
+				B4F83D0419EC880E002968F1 /* MenuViewController.swift in Sources */,
+				B4F83D0619ECC2DE002968F1 /* RidesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B4E7AC6E19E813190056E039 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B4E7AC5619E813190056E039 /* 2UP */;
-			targetProxy = B4E7AC6D19E813190056E039 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B4E7AC6019E813190056E039 /* Main.storyboard */ = {
@@ -336,9 +342,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = 2UP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,43 +355,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = 2UP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B4E7AC7A19E8131A0056E039 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = 2UPTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2UP.app/2UP";
-			};
-			name = Debug;
-		};
-		B4E7AC7B19E8131A0056E039 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = 2UPTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2UP.app/2UP";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -405,14 +382,7 @@
 				B4E7AC7819E8131A0056E039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		B4E7AC7919E8131A0056E039 /* Build configuration list for PBXNativeTarget "2UPTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4E7AC7A19E8131A0056E039 /* Debug */,
-				B4E7AC7B19E8131A0056E039 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
