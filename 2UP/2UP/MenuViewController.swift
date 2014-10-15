@@ -50,6 +50,9 @@ class MenuViewController: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        println("Does he know what he's talking about?")
+        println("OOOH we have \(self.navigationController?.viewControllers.count)")
         if segue.identifier ==  "showRides" {
             let toViewController = segue.destinationViewController as UIViewController
             toViewController.transitioningDelegate = self.transitionManger2

@@ -11,15 +11,31 @@ import UIKit
 class ViewController: UIViewController {
     let transitionManger2 = TransitionManager()
 
-    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var menuButton: UIButton!
+    @IBOutlet weak var editButton: UIButton!
+    
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var locationLabel: UILabel!
+    @IBOutlet weak var motorcycleLabel: UILabel!
+    @IBOutlet weak var yearsRidingLabel: UILabel!
+    
     
     override func viewDidLoad() {
-        self.view.backgroundColor = UIColor.greenColor()
-        nameField.enabled = false
+        var currentUser = PFUser.currentUser()
+        println(currentUser)
+        
+        if ((currentUser) != nil) {
+        }
+        else {
+            self.performSegueWithIdentifier("showLogin", sender: self)
+        }
+ menuButton.layer.cornerRadius = 25
+       
     }
    
     @IBAction func editButtomPushed(sender: AnyObject) {
-        nameField.enabled = true
+       
     }
 
 }
